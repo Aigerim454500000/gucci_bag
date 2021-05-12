@@ -1,0 +1,14 @@
+.makeStyles-root-1 {
+  width: 22vw !important;
+}
+.inp-search {
+  width: 22vw;
+}
+@media all and (max-width: 768px) {
+  .makeStyles-root-1 {
+    width: 90vw !important;
+  }
+  .inp-search {
+    width: 90vw !important;
+  }
+}

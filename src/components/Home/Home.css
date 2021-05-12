@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Montserrat:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+
+.home {
+    text-align: center;
+    width: 98vw;
+    margin: 0 auto;
+}
+.first-section-img {
+    width: 100vw;
+    height: 70vw;
+}
+.first-section {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.first-section__text {
+    position: absolute;
+    top: 10vh;
+    left: 25vw;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+.text-item1 {
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 70px;
+    font-weight: 500;
+}
+.text-item2 {
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+}
+.second-section__text {
+    position: absolute;
+    top: 90vh;
+    left: 45vw;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: white;
+    font-family: "Arial", sans-serif;
+}
+.second-section__text_first {
+    font-size: 22px;
+}
+.second-section__text_second {
+    font-size: 40px;
+    margin-top: -1vh;
+}
+.second-section__text_third {
+    font-size: 10px;
+}
+.shoping-tools {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+.hr {
+    margin-top: 20vh;
+}
+.limited-edition {
+    margin-top: 9vh;
+    display: flex;
+    justify-content: center;
+}
+.bags {
+    margin-top: 6vh;
+    margin-bottom: 11vh;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+}
+.bags-main {
+    display: flex;
+    width: 97vw;
+}
+.bags-main-blocks {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bags-photo {
+    width: 50vh;
+    height: 42vh;
+    margin-left: 10px;
+}
+
+.bags-photo:hover {
+    transform: scale(1.3);
+    transition: all ease 1s;
+}
+.bags-description {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 1180px;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+}
+.description-item3 {
+    margin-top: 3vh;
+}
+.discription-title {
+    font-size: 20px;
+}
+.bags-btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+}
+.bags-btns-btn {
+    background-color: rgb(243, 202, 206);
+    border: solid 3px;
+    width: 18vw;
+    height: 9vh;
+}
+.bags-btns-btn:hover {
+    transition: ease all 0.3s;
+    background-color: red;
+    color: white;
+    font-family: "Arial", serif;
+    
+}
+.hr-second {
+    margin-top: 70px;
+}
+.first-explore {
+    position: relative;
+}
+.first-gif {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 300px;
+}
+.first-png {
+    position: absolute;
+    margin-top: -400px;
+}
+.img1 {
+    width: 60vw;
+    margin-top: -70vh;
+    margin-left: 30vw;
+}
+.login-description {
+    position: absolute;
+    margin-top: -700px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.login-description:first-child {
+    margin-bottom: -50px;
+}
+.login-description1 {
+    margin-bottom: -10px;
+}
+.bags-login-description {
+    margin-top: -150px;
+    font-family: "Roboto", sans-serif;
+}
+.limited-edition {
+    display: flex;
+}
+.edition-img1 {
+    width: 450px;
+    margin: 5px;
+}
+.edition-img2 {
+    width: 450px;
+    margin: 5px;
+}
+.edition-img3 {
+    width: 450px;
+    margin: 5px;
+}
+.limited-edition-titles1 {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 2vh;
+    color: rgb(241, 207, 207);
+    font-size: 14px;
+}
+.limited-edition-titles2 {
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 2vh;
+    color: rgb(110, 60, 60);
+    font-size: 18px;
+}
+.limited-edition-titles3 {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 2vh;
+    color: rgb(53, 6, 6);
+    font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+    .img1 {
+        height: 700px;
+        width: 700px;
+        margin-top: -400px;
+        margin-left: 500px;
+    }
+    .limited-edition {
+        height: 300px;
+        display: flex;
+    }
+    .edition-img1 {
+        width: 390px;
+    }
+    .edition-img2 {
+        width: 380px;
+    }
+    .edition-img3 {
+        width: 380px;
+    }
+    .edition-img4 {
+        width: 390px;
+    }
+    .second-section__text {
+        margin-top: -50px;
+    }
+    .limited-edition-titles1 {
+        margin-top: 350px;
+    }
+    .limited-edition-titles2 {
+        margin-top: 160px;
+    }
+    .limited-edition-titles3 {
+        margin-top: 160px;
+    }
+    .limited-edition-titles4 {
+        margin-top: 350px;
+    }
+}
+@media (max-width: 1024px) {
+    .second-section__text {
+        margin-top: -140px;
+    }
+    .img1 {
+        height: 550px;
+        width: 550px;
+        margin-top: -300px;
+        margin-left: 480px;
+    }
+    .limited-edition {
+        height: 300px;
+        display: flex;
+    }
+    .edition-img1 {
+        width: 335px;
+    }
+    .edition-img2 {
+        width: 325px;
+    }
+    .edition-img3 {
+        width: 325px;
+    }
+    .edition-img4 {
+        width: 335px;
+    }
+    .limited-edition-titles1 {
+        margin-top: 300px;
+    }
+    .limited-edition-titles2 {
+        margin-top: 140px;
+    }
+    .limited-edition-titles3 {
+        margin-top: 140px;
+    }
+    .limited-edition-titles4 {
+        margin-top: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .first-section__text {
+        margin-left: -120px;
+    }
+    .second-section__text {
+        margin-top: -280px;
+    }
+    .bags-main {
+        flex-direction: column;
+    }
+    .bags-main-blocks {
+        margin-top: 30px;
+    }
+    .img1 {
+        height: 450px;
+        width: 450px;
+        margin-top: -230px;
+        margin-left: 300px;
+    }
+    .limited-edition {
+        height: 300px;
+        display: flex;
+    }
+    .edition-img1 {
+        width: 440px;
+    }
+    .edition-img2 {
+        width: 440px;
+    }
+    .edition-img3 {
+        width: 440px;
+    }
+    .edition-img4 {
+        width: 440px;
+    }
+    .limited-edition-titles1 {
+        margin-top: 400px;
+        margin-left: 150px;
+    }
+    .limited-edition-titles2 {
+        margin-top: 180px;
+        margin-left: 150px;
+    }
+    .limited-edition-titles3 {
+        margin-top: 180px;
+        margin-left: 150px;
+    }
+    .limited-edition-titles4 {
+        margin-top: 400px;
+        margin-left: 150px;
+    }
+    .limited-edition {
+        margin-top: 20vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 576px) {
+    .img1 {
+        height: 400px;
+        width: 400px;
+        margin-top: -200px;
+        margin-left: 160px;
+    }
+    .first-section__text {
+        margin-top: -50px;
+        margin-left: 1px;
+    }
+    .text-item1 {
+        font-size: 20px;
+    }
+    .text-item2 {
+        font-size: 16px;
+    }
+    .second-section__text {
+        margin-top: -370px;
+        margin-left: -10px;
+    }
+    .second-section__text_first {
+        font-size: 16px;
+    }
+    .second-section__text_second {
+        font-size: 24px;
+    }
+}
+@media (max-width: 360px) {
+    .img1 {
+        height: 350px;
+        width: 350px;
+        margin-top: -160px;
+        margin-left: 10px;
+    }
+    .edition-img1 {
+        width: 340px;
+    }
+    .edition-img2 {
+        width: 340px;
+    }
+    .edition-img3 {
+        width: 340px;
+    }
+    .edition-img4 {
+        width: 340px;
+    }
+    .first-section__text {
+        font-size: 10px;
+    }
+    .limited-edition-titles1 {
+        margin-top: 270px;
+        margin-left: 20px;
+    }
+    .limited-edition-titles2 {
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+    .limited-edition-titles3 {
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+    .limited-edition-titles4 {
+        margin-top: 270px;
+        margin-left: 20px;
+    }
+    .limited-edition {
+        margin-top: 20vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 376px) {
+    .first-section__text {
+        margin-top: -70px;
+        margin-left: -20px;
+    }
+    .second-section__text {
+        margin-top: -590px;
+        margin-left: -30px;
+    }
+    .second-section__text_second {
+        font-size: 16px;
+    }
+    .text-item2 {
+        font-size: 12px;
+    }
+    .img1 {
+        height: 250px;
+        width: 250px;
+        margin-top: -100px;
+        margin-left: 110px;
+    }
+    .first-gif {
+        height: 300px;
+        width: 100vw;
+    }
+    .bags-photo {
+        width: 310px;
+        height: 200px;
+    }
+
+    .login-description {
+        margin-top: -550px;
+    }
+    .edition-img1 {
+        width: 320px;
+    }
+    .edition-img2 {
+        width: 320px;
+    }
+    .edition-img3 {
+        width: 320px;
+    }
+    .edition-img4 {
+        width: 320px;
+    }
+    .limited-edition-titles1 {
+        margin-top: 280px;
+        margin-left: 20px;
+    }
+    .limited-edition-titles2 {
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+    .limited-edition-titles3 {
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+    .limited-edition-titles4 {
+        margin-top: 280px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 361px) {
+    .first-section__text {
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+    .second-section__text {
+        margin-top: -440px;
+        margin-left: -30px;
+    }
+    .bags-btns-btn {
+        width: 100px;
+        height: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .img1 {
+        height: 200px;
+        width: 200px;
+        margin-top: -100px;
+        margin-left: 90px;
+    }
+    .first-section__text {
+        margin-top: -60px;
+        margin-left: -40px;
+    }
+    .second-section__text {
+        margin-top: -480px;
+    }
+    .second-section__text_second {
+        font-size: 14px;
+    }
+    .second-section__text_first {
+        font-size: 16px;
+    }
+}

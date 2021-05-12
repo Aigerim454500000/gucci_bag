@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap");
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
+}
+.logo {
+    width: 9vw;
+    margin-top: 1px;
+}
+.navBar {
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    }
+.login {
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    background-color: #ee1010;
+    color: white;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+}
+.signup {
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    background-color:#ee1010;
+    color: white;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+}
+.store {
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    background-color: #ee1010;
+    color: white;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    margin-left: -10px;
+    /* margin-right: 20px; */
+}
+.li {
+    list-style-type: none;
+    font-family: "Noto Sans TC", sans-serif;
+}
+.signup:hover {
+    background-color: white;
+    border: solid 3px #ee1010;
+    color: #ee1010;
+    transition: 0.5s;
+    font-weight: 700 !important;
+}
+.login:hover {
+    background-color: white;
+    border: solid 3px #ee1010;
+    color: #ee1010;
+    transition: 0.5s;
+    font-weight: 700 !important;
+}
+.store:hover {
+    background-color: white;
+    border: solid 3px #ee1010;
+    color: #ee1010;
+    transition: 0.5s;
+    font-weight: 700 !important;
+}
+.store:hover {
+    background-color: white;
+    border: solid 3px #ee1010;
+    color: #ee1010;
+    transition: 0.5s;
+    font-weight: 700 !important;
+}
+button {
+    cursor: pointer;
+}
+.hamburger-menu {
+    display: none;
+}
+@media all and (max-width: 1000px) {
+    .hamburger-menu {
+        display: block;
+    }
+    .navBar {
+        display: none;
+    }
+    .logo_div {
+        margin: 0 auto;
+        width: 40vw;
+        display: none;
+    }
+}

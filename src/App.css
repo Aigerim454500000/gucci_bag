@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+input,
+button {
+  outline: none;
+}
+body {
+  margin: 0;
+  background-color: #e7e7e7;
+}
+
+.MuiPaper-root {
+  background-color: #e7e7e7 !important;
+}

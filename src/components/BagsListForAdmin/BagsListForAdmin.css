@@ -1,0 +1,9 @@
+.bagsForAdmin {
+  display: flex;
+  flex-direction: row;
+}
+@media all and (max-width: 1130px) {
+  .bagsForAdmin {
+    flex-direction: column;
+  }
+}

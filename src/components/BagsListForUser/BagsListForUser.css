@@ -1,0 +1,12 @@
+.bagsForUser {
+  display: flex;
+  flex-direction: row;
+}
+/* .MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded {
+  width: 100vw;
+} */
+@media all and (max-width: 1130px) {
+  .bagsForUser {
+    flex-direction: column;
+  }
+}
